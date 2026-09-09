@@ -1,12 +1,11 @@
 import React from 'react';
-import { ArrowRight, MessageCircle } from 'lucide-react';
+import { ArrowRight } from 'lucide-react';
 import { VideoHero } from '../components/VideoHero';
 import { GlassButton } from '../components/GlassButton';
 import { SectionHeading } from '../components/SectionHeading';
 import { ScrollReveal } from '../components/ScrollReveal';
 import { ImageReveal } from '../components/ImageReveal';
 import { CTASection } from '../components/CTASection';
-import { GYM_CONTACT } from '../data/config';
 
 const PILLARS = [
   {

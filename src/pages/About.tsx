@@ -24,7 +24,7 @@ export const About: React.FC = () => {
           </>
         }
         supporting="A place built around discipline, performance and transformation."
-        image="/images/gym-floor.webp"
+        image="https://images.unsplash.com/photo-1571902943202-507ec2618e8f?q=80&w=1600&auto=format&fit=crop"
       />
 
       {/* STORY */}

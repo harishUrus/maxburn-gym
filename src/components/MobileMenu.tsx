@@ -47,7 +47,7 @@ export const MobileMenu: React.FC<MobileMenuProps> = ({ open, onClose }) => {
       role="dialog"
       aria-modal="true"
       aria-label="Mobile navigation"
-      className="fixed inset-0 z-40 bg-ink/98 backdrop-blur-xl flex flex-col items-center justify-center gap-8 lg:hidden"
+      className="fixed inset-0 z-40 bg-ink/98 backdrop-blur-xl flex flex-col items-center justify-center gap-8 xl:hidden"
       style={{ opacity: 0, visibility: 'hidden' }}
     >
       <nav className="flex flex-col items-center gap-6" aria-label="Mobile primary">

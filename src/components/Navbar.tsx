@@ -33,13 +33,13 @@ export const Navbar: React.FC = () => {
               <MaxburnLogo />
             </NavLink>
 
-            <nav className="hidden lg:flex items-center gap-1" aria-label="Primary">
+            <nav className="hidden xl:flex items-center gap-0.5" aria-label="Primary">
               {NAV_LINKS.map((item) => (
                 <NavLink
                   key={item.to}
                   to={item.to}
                   className={({ isActive }) =>
-                    `px-4 py-2 text-xs tracking-[0.18em] uppercase font-medium rounded-full transition-colors ${
+                    `px-3 py-2 text-[11px] tracking-[0.14em] uppercase font-medium rounded-full whitespace-nowrap transition-colors ${
                       isActive ? 'text-white bg-white/10' : 'text-white/60 hover:text-white'
                     }`
                   }
@@ -62,7 +62,7 @@ export const Navbar: React.FC = () => {
                 onClick={() => setMenuOpen((v) => !v)}
                 aria-label={menuOpen ? 'Close menu' : 'Open menu'}
                 aria-expanded={menuOpen}
-                className="lg:hidden inline-flex items-center justify-center w-10 h-10 rounded-full bg-white/10 text-white"
+                className="xl:hidden inline-flex items-center justify-center w-10 h-10 rounded-full bg-white/10 text-white"
               >
                 {menuOpen ? <X className="w-5 h-5" /> : <Menu className="w-5 h-5" />}
               </button>
